@@ -1,0 +1,11 @@
+# sys-page-faults has no external Python dependencies.
+# It uses only Python standard library modules:
+#   - argparse
+#   - os
+#   - signal
+#   - sys
+#   - time
+#   - collections
+#   - dataclasses
+#   - pathlib
+#   - typing
