@@ -399,7 +399,9 @@ def cmd_monitor(args):
     """Start continuous monitoring mode."""
     if args.pid:
         monitor_process(args.pid, args.interval, args.count)
-    elif args.system or True:
+    elif args.system:
+        monitor_system(args.interval, args.count)
+    else:
         monitor_system(args.interval, args.count)
 
 
